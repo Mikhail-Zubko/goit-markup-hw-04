@@ -637,8 +637,6 @@ margin-right: 0;
 
 .portfolio-button:hover,
 .portfolio-button:focus {
-    outline: none;
-
     color: var(--white-text-color);
     background-color: var(--accent-color);
 
@@ -664,6 +662,7 @@ margin-right: 0;
 }
 
 .portfolio-card-link {
+    display: inline-block;
     color: inherit;
     text-decoration: none;
 }
